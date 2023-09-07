@@ -1,19 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <draggable-dot></draggable-dot>
+    <BellCurveChart msg="Bell" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BellCurveChart from "./components/BellCurveChart.vue";
+import DraggableDot from "./components/DraggableDot.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    BellCurveChart,
+    DraggableDot,
+  },
+};
 </script>
 
 <style>
