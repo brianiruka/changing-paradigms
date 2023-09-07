@@ -30,7 +30,7 @@
 
 <script>
 import io from "socket.io-client";
-const socket = io("http://localhost:3000"); // Replace with your server address
+const socket = io("/socket:3000"); // Replace with your server address
 
 export default {
   data() {
