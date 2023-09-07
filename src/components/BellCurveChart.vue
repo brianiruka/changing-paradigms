@@ -1,9 +1,9 @@
 <template>
   <div style="position: absolute; top: 25%; z-index: -99" class="hello">
     <canvas id="myCanvas"></canvas>
-    <div class="label label1">Stage A</div>
-    <div class="label label2">Stage B</div>
-    <div class="label label3">Stage C</div>
+    <div class="label label1">A PHASE</div>
+    <div class="label label2">B PHASE</div>
+    <div class="label label3">C PHASE</div>
   </div>
 </template>
 
